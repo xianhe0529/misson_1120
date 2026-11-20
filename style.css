@@ -1,23 +1,20 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: auto; }
-body { 
-  margin: 0; color: #243b43; background: #f6f3ed; font-family: Arial, "Malgun Gothic", sans-serif; line-height: 1.65; }
+body { margin: 0; color: #243b43; background: #f6f3ed; font-family: Arial, "Malgun Gothic", sans-serif; line-height: 1.65; }
 .page { width: 100%; max-width: 1040px; margin: 0 auto; padding: 28px; }
-.site-header {  border-bottom: 1px solid #d9dfd9; background: #fff; }
+.site-header { border-bottom: 1px solid #d9dfd9; background: #fff; }
 .site-header .page { display: flex; justify-content: space-between; align-items: center; padding-top: 18px; padding-bottom: 18px; gap: 12px; }
 .site-header span { font-size: 11px; letter-spacing: 1px; }
-.hero { padding-top: 40px; min-width: 0; }
+.hero { padding-top: 40px; min-width: 960px; }
 .eyebrow { margin: 0 0 10px; font-size: 12px; font-weight: 700; letter-spacing: 2px; color: #527963; }
 h1 { max-width: 720px; margin: 0 0 16px; font-size: 42px; line-height: 1.25; }
 .lead { margin-bottom: 24px; }
 .button { display: inline-block; padding: 12px 24px; border-radius: 6px; background: #264e40; color: #fff; text-decoration: none; }
-.hero-image { display: block; width: 100%; max-width: 100%;
-   height: auto; margin-top: 32px; border-radius: 16px; background: #e3e9e1; }
+.hero-image { display: block; width: 100%; height: auto; margin-top: 32px; border-radius: 16px; background: #e3e9e1; }
 .program-section { padding: 58px 0; }
 h2 { margin: 0 0 24px; font-size: 28px; }
-.programs { display: flex; gap: 20px; }
-.tile { 
-  flex: 1; min-width: 0; margin-bottom: 16px; padding: 24px; border: 1px solid #d9dfd9; border-radius: 12px; background: #fff; }
+.program-list { display: flex; gap: 20px; }
+.tile { flex: 1; min-width: 0; margin-bottom: 16px; padding: 24px; border: 1px solid #d9dfd9; border-radius: 12px; background: #fff; }
 .tile span { color: #6f8879; font-weight: 700; }
 .tile h3 { margin: 10px 0 8px; font-size: 20px; }
 .tile p { margin: 0; }
